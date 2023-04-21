@@ -16,7 +16,7 @@ function display() {
     //Exercise 6
     //Get the p tag by its id
     //Change the inner HTML of the p tag to the madlib (var)
-   
+   document.getElementById('mad-lib').innerHTML = madlib;
 
 
     //Bonus exercise: Show the inserted words with an underline
